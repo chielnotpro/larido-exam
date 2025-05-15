@@ -48,7 +48,7 @@ class TutoringController extends Controller
         ['id' => 10, 'name' => 'Art'],
     ]);
 
-    // 👇 Generate 20 random appointments
+    // 👇 Generate random appointments
     $appointments = collect();
     for ($i = 0; $i < 10; $i++) {
         $appointments->push([
